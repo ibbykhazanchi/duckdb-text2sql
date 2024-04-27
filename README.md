@@ -56,3 +56,4 @@ This application is designed to be flexible and can be easily customized to work
 2. **Modify the base prompt**: The base prompt for the AI, stored in the `prompts` folder as `base_prompt.txt`, contains specific information about the data metadata. Modify this prompt to match the structure and content of your own data. Make sure to accurately describe the tables, columns, and any specific rules or tips for querying your dataset.
 
 By following these steps, you can tailor the DuckDB Query Generator to your own data and use cases. Feel free to experiment and build off this repository to create your own powerful data querying applications.
+
