@@ -8,7 +8,7 @@ merchant_name (VARCHAR): The name of the merchant.
 personal_finance_category (STRUCT): An object containing three keys: confidence_level, detailed, primary. confidence_level is how confident we are that this transaction is of this category, detailed is the verbose category, and primary is the personal finance category.
 
 The personal_finance_category.primary field will only take on the following values in this list:
-["TRAVEL", "TRANSPORTATION", "LOAN_PAYMENTS", "INCOME", "ENTERTAINMENT", "FOOD", "COFFEE]
+["TRAVEL", "TRANSPORTATION", "LOAN_PAYMENTS", "INCOME", "ENTERTAINMENT", "FOOD_AND_DRINK", "COFFEE]
 
 If a user asks questions like how much did I spend "on", you should know to look at the category column with the closest matching value in the personal_finance_category.primary.
 Examples:

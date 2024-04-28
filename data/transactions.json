@@ -426,7 +426,7 @@
     "personal_finance_category": {
         "confidence_level": "VERY_HIGH",
         "detailed": "FOOD_AND_DRINK_FAST_FOOD",
-        "primary": "FOOD"
+        "primary": "FOOD_AND_DRINK"
     },
     "personal_finance_category_icon_url": "https://plaid-category-icons.plaid.com/PFC_FOOD_AND_DRINK.png",
     "transaction_code": null,
@@ -475,6 +475,270 @@
     "logo_url": "https://plaid-merchant-logos.plaid.com/starbucks_956.png",
     "merchant_entity_id": "NZAJQ5wYdo1W1p39X5q5gpb15OMe39pj4pJBb",
     "merchant_name": "Starbucks",
+    "name": "Starbucks",
+    "payment_channel": "in store",
+    "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+    },
+    "pending": false,
+    "pending_transaction_id": null,
+    "personal_finance_category": {
+        "confidence_level": "VERY_HIGH",
+        "detailed": "FOOD_AND_DRINK_COFFEE",
+        "primary": "COFFEE"
+    },
+    "personal_finance_category_icon_url": "https://plaid-category-icons.plaid.com/PFC_FOOD_AND_DRINK.png",
+    "transaction_code": null,
+    "transaction_id": "KDMWpvkQZ1H1DdMvaAjeu94bgKveQ8FnnNq1l",
+    "transaction_type": "place",
+    "unofficial_currency_code": null,
+    "website": "starbucks.com"
+},
+{
+    "account_id": "JDZW1vLe9MHMowZ8dgPEty8LQQbDK3hBxRwX4",
+    "account_owner": null,
+    "amount": 10,
+    "authorized_date": "2024-04-21",
+    "authorized_datetime": null,
+    "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+    ],
+    "category_id": "13005043",
+    "check_number": null,
+    "counterparties": [
+        {
+            "confidence_level": "VERY_HIGH",
+            "entity_id": "NZAJQ5wYdo1W1p39X5q5gpb15OMe39pj4pJBb",
+            "logo_url": "https://plaid-merchant-logos.plaid.com/starbucks_956.png",
+            "name": "Starbucks",
+            "phone_number": null,
+            "type": "merchant",
+            "website": "starbucks.com"
+        }
+    ],
+    "date": "2024-04-21",
+    "datetime": null,
+    "iso_currency_code": "USD",
+    "location": {
+        "address": null,
+        "city": null,
+        "country": null,
+        "lat": null,
+        "lon": null,
+        "postal_code": null,
+        "region": null,
+        "store_number": null
+    },
+    "logo_url": "https://plaid-merchant-logos.plaid.com/starbucks_956.png",
+    "merchant_entity_id": "NZAJQ5wYdo1W1p39X5q5gpb15OMe39pj4pJBb",
+    "merchant_name": "Starbucks",
+    "name": "Starbucks",
+    "payment_channel": "in store",
+    "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+    },
+    "pending": false,
+    "pending_transaction_id": null,
+    "personal_finance_category": {
+        "confidence_level": "VERY_HIGH",
+        "detailed": "FOOD_AND_DRINK_COFFEE",
+        "primary": "COFFEE"
+    },
+    "personal_finance_category_icon_url": "https://plaid-category-icons.plaid.com/PFC_FOOD_AND_DRINK.png",
+    "transaction_code": null,
+    "transaction_id": "KDMWpvkQZ1H1DdMvaAjeu94bgKveQ8FnnNq1l",
+    "transaction_type": "place",
+    "unofficial_currency_code": null,
+    "website": "starbucks.com"
+},
+{
+    "account_id": "JDZW1vLe9MHMowZ8dgPEty8LQQbDK3hBxRwX4",
+    "account_owner": null,
+    "amount": 12,
+    "authorized_date": "2024-04-21",
+    "authorized_datetime": null,
+    "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+    ],
+    "category_id": "13005043",
+    "check_number": null,
+    "counterparties": [
+        {
+            "confidence_level": "VERY_HIGH",
+            "entity_id": "NZAJQ5wYdo1W1p39X5q5gpb15OMe39pj4pJBb",
+            "logo_url": "https://plaid-merchant-logos.plaid.com/starbucks_956.png",
+            "name": "Starbucks",
+            "phone_number": null,
+            "type": "merchant",
+            "website": "starbucks.com"
+        }
+    ],
+    "date": "2024-04-21",
+    "datetime": null,
+    "iso_currency_code": "USD",
+    "location": {
+        "address": null,
+        "city": null,
+        "country": null,
+        "lat": null,
+        "lon": null,
+        "postal_code": null,
+        "region": null,
+        "store_number": null
+    },
+    "logo_url": "https://plaid-merchant-logos.plaid.com/starbucks_956.png",
+    "merchant_entity_id": "NZAJQ5wYdo1W1p39X5q5gpb15OMe39pj4pJBb",
+    "merchant_name": "Starbucks",
+    "name": "Starbucks",
+    "payment_channel": "in store",
+    "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+    },
+    "pending": false,
+    "pending_transaction_id": null,
+    "personal_finance_category": {
+        "confidence_level": "VERY_HIGH",
+        "detailed": "FOOD_AND_DRINK_COFFEE",
+        "primary": "COFFEE"
+    },
+    "personal_finance_category_icon_url": "https://plaid-category-icons.plaid.com/PFC_FOOD_AND_DRINK.png",
+    "transaction_code": null,
+    "transaction_id": "KDMWpvkQZ1H1DdMvaAjeu94bgKveQ8FnnNq1l",
+    "transaction_type": "place",
+    "unofficial_currency_code": null,
+    "website": "starbucks.com"
+},
+{
+    "account_id": "JDZW1vLe9MHMowZ8dgPEty8LQQbDK3hBxRwX4",
+    "account_owner": null,
+    "amount": 12,
+    "authorized_date": "2024-04-21",
+    "authorized_datetime": null,
+    "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+    ],
+    "category_id": "13005043",
+    "check_number": null,
+    "counterparties": [
+        {
+            "confidence_level": "VERY_HIGH",
+            "entity_id": "NZAJQ5wYdo1W1p39X5q5gpb15OMe39pj4pJBb",
+            "logo_url": "https://plaid-merchant-logos.plaid.com/starbucks_956.png",
+            "name": "Starbucks",
+            "phone_number": null,
+            "type": "merchant",
+            "website": "starbucks.com"
+        }
+    ],
+    "date": "2024-04-21",
+    "datetime": null,
+    "iso_currency_code": "USD",
+    "location": {
+        "address": null,
+        "city": null,
+        "country": null,
+        "lat": null,
+        "lon": null,
+        "postal_code": null,
+        "region": null,
+        "store_number": null
+    },
+    "logo_url": "https://plaid-merchant-logos.plaid.com/starbucks_956.png",
+    "merchant_entity_id": "NZAJQ5wYdo1W1p39X5q5gpb15OMe39pj4pJBb",
+    "merchant_name": "Dunkin",
+    "name": "Starbucks",
+    "payment_channel": "in store",
+    "payment_meta": {
+        "by_order_of": null,
+        "payee": null,
+        "payer": null,
+        "payment_method": null,
+        "payment_processor": null,
+        "ppd_id": null,
+        "reason": null,
+        "reference_number": null
+    },
+    "pending": false,
+    "pending_transaction_id": null,
+    "personal_finance_category": {
+        "confidence_level": "VERY_HIGH",
+        "detailed": "FOOD_AND_DRINK_COFFEE",
+        "primary": "COFFEE"
+    },
+    "personal_finance_category_icon_url": "https://plaid-category-icons.plaid.com/PFC_FOOD_AND_DRINK.png",
+    "transaction_code": null,
+    "transaction_id": "KDMWpvkQZ1H1DdMvaAjeu94bgKveQ8FnnNq1l",
+    "transaction_type": "place",
+    "unofficial_currency_code": null,
+    "website": "starbucks.com"
+},
+{
+    "account_id": "JDZW1vLe9MHMowZ8dgPEty8LQQbDK3hBxRwX4",
+    "account_owner": null,
+    "amount": 12,
+    "authorized_date": "2024-04-21",
+    "authorized_datetime": null,
+    "category": [
+        "Food and Drink",
+        "Restaurants",
+        "Coffee Shop"
+    ],
+    "category_id": "13005043",
+    "check_number": null,
+    "counterparties": [
+        {
+            "confidence_level": "VERY_HIGH",
+            "entity_id": "NZAJQ5wYdo1W1p39X5q5gpb15OMe39pj4pJBb",
+            "logo_url": "https://plaid-merchant-logos.plaid.com/starbucks_956.png",
+            "name": "Starbucks",
+            "phone_number": null,
+            "type": "merchant",
+            "website": "starbucks.com"
+        }
+    ],
+    "date": "2024-04-21",
+    "datetime": null,
+    "iso_currency_code": "USD",
+    "location": {
+        "address": null,
+        "city": null,
+        "country": null,
+        "lat": null,
+        "lon": null,
+        "postal_code": null,
+        "region": null,
+        "store_number": null
+    },
+    "logo_url": "https://plaid-merchant-logos.plaid.com/starbucks_956.png",
+    "merchant_entity_id": "NZAJQ5wYdo1W1p39X5q5gpb15OMe39pj4pJBb",
+    "merchant_name": "Pret",
     "name": "Starbucks",
     "payment_channel": "in store",
     "payment_meta": {
