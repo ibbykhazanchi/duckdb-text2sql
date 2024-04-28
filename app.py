@@ -10,7 +10,7 @@ import sqlparse
 
 
 
-def chat_with_groq(client,prompt,model):
+def chat_with_groq(client, prompt, model):
     """
     This function sends a prompt to the Groq API and retrieves the AI's response.
 
@@ -89,7 +89,7 @@ def get_json_output(llm_response):
 
 
 
-def get_reflection(client,full_prompt,llm_response,model):
+def get_reflection(client, full_prompt, llm_response, model):
     """
     This function generates a reflection prompt when there is an error with the AI's response. 
     It then sends this reflection prompt to the Groq API and retrieves the AI's response.
@@ -117,7 +117,7 @@ def get_reflection(client,full_prompt,llm_response,model):
 
     Ensure that the following rules are satisfied when correcting your response:
     1. SQL is valid DuckDB SQL, given the provided metadata and the DuckDB querying rules
-    2. The query SPECIFICALLY references the correct tables: employees.csv and purchases.csv, and those tables are properly aliased? (this is the most likely cause of failure)
+    2. The query SPECIFICALLY references the correct table: transactions.json, and those tables are properly aliased? (this is the most likely cause of failure)
     3. Response is in the correct format ({{sql: <sql_here>}} or {{"error": <explanation here>}}) with no additional text?
     4. All fields are appropriately named
     5. There are no unnecessary sub-queries
@@ -187,7 +187,7 @@ def main():
         st.image('groqcloud_darkmode.png')
 
     st.title("DuckDB Query Generator")
-    st.write('Welcome! Feel free to ask questions about the data contained in the `employees.csv` and `purchases.csv` files. You might ask about specific employee details or inquire about purchase records. For example, you could ask "Who are the employees?" or "What are the most recent purchases?". The application matches your question to SQL queries to provide accurate and relevant results. Enjoy exploring the data!')
+    st.write('Welcome! Feel free to ask questions about the data contained in the `transactions.json` file')
 
     # Set up the customization options
     st.sidebar.title('Customization')
