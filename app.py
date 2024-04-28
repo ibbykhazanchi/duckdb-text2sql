@@ -183,8 +183,6 @@ def main():
 
     # Set up the Streamlit interface
     spacer, col = st.columns([5, 1])  
-    with col:  
-        st.image('groqcloud_darkmode.png')
 
     st.title("Personal Finance Chatbot")
     st.write('Welcome! Feel free to ask questions about your personal finance data')

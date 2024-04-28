@@ -1,5 +1,5 @@
 [
-    {
+{
     "account_id": "JDZW1vLe9MHMowZ8dgPEty8LQQbDK3hBxRwX4",
     "account_owner": null,
     "amount": -500,
@@ -426,7 +426,7 @@
     "personal_finance_category": {
         "confidence_level": "VERY_HIGH",
         "detailed": "FOOD_AND_DRINK_FAST_FOOD",
-        "primary": "FOOD_AND_DRINK"
+        "primary": "FOOD"
     },
     "personal_finance_category_icon_url": "https://plaid-category-icons.plaid.com/PFC_FOOD_AND_DRINK.png",
     "transaction_code": null,
@@ -492,7 +492,7 @@
     "personal_finance_category": {
         "confidence_level": "VERY_HIGH",
         "detailed": "FOOD_AND_DRINK_COFFEE",
-        "primary": "FOOD_AND_DRINK"
+        "primary": "COFFEE"
     },
     "personal_finance_category_icon_url": "https://plaid-category-icons.plaid.com/PFC_FOOD_AND_DRINK.png",
     "transaction_code": null,

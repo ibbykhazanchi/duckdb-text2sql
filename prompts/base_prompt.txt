@@ -7,6 +7,15 @@ date (VARCHAR): The calendar date (year, month, day) of the transaction.
 merchant_name (VARCHAR): The name of the merchant.
 personal_finance_category (STRUCT): An object containing three keys: confidence_level, detailed, primary. confidence_level is how confident we are that this transaction is of this category, detailed is the verbose category, and primary is the personal finance category.
 
+The personal_finance_category.primary field will only take on the following values in this list:
+["TRAVEL", "TRANSPORTATION", "LOAN_PAYMENTS", "INCOME", "ENTERTAINMENT", "FOOD", "COFFEE]
+
+If a user asks questions like how much did I spend "on", you should know to look at the category column with the closest matching value in the personal_finance_category.primary.
+Examples:
+"how much did I spend on transportation". The relevant category here would be "TRANSPORATION"
+"how much did I spend on coffee". The relevant category here would be "COFFEE"
+"how much did I spend on traveling". The relevant category here would be "TRAVEL"
+
 Given a user's question about this data, write a valid DuckDB SQL query that accurately extracts or calculates the requested information from these tables and adheres to SQL best practices for DuckDB, optimizing for readability and performance where applicable.
 
 Here are some tips for writing DuckDB queries:
