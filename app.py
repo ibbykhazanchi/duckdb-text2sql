@@ -186,8 +186,8 @@ def main():
     with col:  
         st.image('groqcloud_darkmode.png')
 
-    st.title("DuckDB Query Generator")
-    st.write('Welcome! Feel free to ask questions about the data contained in the `transactions.json` file')
+    st.title("Personal Finance Chatbot")
+    st.write('Welcome! Feel free to ask questions about your personal finance data')
 
     # Set up the customization options
     st.sidebar.title('Customization')
